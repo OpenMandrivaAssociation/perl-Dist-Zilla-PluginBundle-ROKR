@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-PluginBundle-ROKR
-%define upstream_version 0.0012
+%define upstream_version 0.0019
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Copy README after building (for SCM inclusion, etc.)
 License:	GPL+ or Artistic
@@ -52,4 +52,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README Changes META.yml
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
