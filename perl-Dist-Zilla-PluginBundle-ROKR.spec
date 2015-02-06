@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	Copy README after building (for SCM inclusion, etc.)
 License:	GPL+ or Artistic
